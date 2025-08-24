@@ -13,3 +13,6 @@ with open('chat_history.txt') as f:
 print(chat_history)
 
 chat_template.invoke({'chat_history':chat_history,'query':'Where is my refund'})
+
+print(chat_template)
+
